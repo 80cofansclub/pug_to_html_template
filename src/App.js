@@ -5,6 +5,8 @@ import './style.css';
 export default function App() {
   const pug = require('pug');
 
+  let a = '';
+
   let text = `
 div(table-grid style="--table-grid-width:repeat(5,1fr); --table-grid-gap:2px;--table-grid-padding-y:2px; --table-grid-padding-x:4px;")
 table.table.table-tree
