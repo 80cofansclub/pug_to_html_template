@@ -52,7 +52,7 @@ table.table.table-tree
 
   return (
     <div>
-      <textarea id="w3review" name="w3review" rows="4" cols="50">
+      <textarea id="w3review" name="w3review" rows="50" cols="50">
         {text}
       </textarea>
       <div style={{ padding: 10, border: '1px solid black' }}>
