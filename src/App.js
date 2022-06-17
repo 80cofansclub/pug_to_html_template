@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import './assets/css/UI.css';
 
 export default function App() {
   const pug = require('pug');
